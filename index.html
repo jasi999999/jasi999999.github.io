@@ -3,16 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Profile - jasi999999</title>
+    <title>jasi999999 - Estudiante & Triatleta</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f0f0f0; }
-        h1 { color: #333; }
-        a { text-decoration: none; color: #0366d6; }
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header img.avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            color: #ced4da;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            color: #343a40;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #343a40;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 8px;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff;
+            transition: background-color 0.3s;
+            font-weight: 500;
+        }
+        .buttons a:hover {
+            background-color: #0056b3;
+        }
+        .skills, .sports {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill, .sport {
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+        }
     </style>
 </head>
 <body>
-    <h1>Hola, soy @jasi999999 👋</h1>
-    <p>Bienvenido a mi página de GitHub Pages.</p>
-    <p>Visita mis proyectos en <a href="https://github.com/jasi999999" target="_blank">GitHub</a></p>
+
+<header>
+    <img class="avatar" src="https://github.com/jasi999999.png" alt="Avatar de jasi999999">
+    <h1>jasi999999</h1>
+    <p>Estudiante de Ingeniería Informática en la UPV | Apasionado por Inteligencia Artificial | Triatleta internacional</p>
+    <div class="buttons">
+        <a href="https://github.com/jasi999999" target="_blank">Mi GitHub</a>
+        <a href="https://github.com/jasi999999?tab=repositories" target="_blank">Proyectos</a>
+    </div>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de Ingeniería Informática en la UPV, con un gran interés en Inteligencia Artificial y desarrollo de software. Además, soy triatleta internacional, lo que me ha enseñado disciplina, perseverancia y trabajo en equipo.</p>
+    </section>
+
+    <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Deep Learning</div>
+            <div class="skill">TensorFlow</div>
+            <div class="skill">PyTorch</div>
+            <div class="skill">Data Science</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">SQL / Bases de Datos</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Logros Deportivos</h2>
+        <div class="sports">
+            <div class="sport">Triatlón Internacional</div>
+            <div class="sport">Competiciones Nacionales</div>
+            <div class="sport">Medallas y Podios</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Proyectos Destacados</h2>
+        <p>Algunos de mis proyectos de IA y software están disponibles en mi GitHub:</p>
+        <div class="buttons">
+            <a href="https://github.com/jasi999999/project1" target="_blank">Proyecto 1</a>
+            <a href="https://github.com/jasi999999/project2" target="_blank">Proyecto 2</a>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2025 jasi999999. Página creada con GitHub Pages.
+</footer>
+
 </body>
 </html>
